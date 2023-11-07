@@ -1,2 +1,4 @@
-# jkennethjung.github.io
-![headshot](/least-github-pages/assets/kenjung_photo.jpg)
+# Ken Jung
+Welcome to my website!
+
+<img src="/docs/assets/kenjung_photo.jpg" width="200">
