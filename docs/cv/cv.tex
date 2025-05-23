@@ -21,7 +21,8 @@
 % Customize section formatting
 \titleformat{\section}
   {\Large\bfseries}
-  {\thesection}{0em}{}[\titlerule[0.8pt]]
+  {\thesection}{0em}{}
+\renewcommand{\titlerule}{\color{black}\hrule width\textwidth height 0.8pt}
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 
 % Customize subsection formatting
@@ -101,7 +102,6 @@ New Haven, CT 06520-8268 & \textbf{Citizenship:} United States \\
 ``Additionality and Leakage in Equilibrium'' \textit{with Andrew Vogt} \\
 ``Aircraft Leakage under Cap and Trade'' \textit{with Meichen Chen and Miho Hong}
 
-\newpage
 
 \section*{Teaching Experience}
 
@@ -109,6 +109,8 @@ New Haven, CT 06520-8268 & \textbf{Citizenship:} United States \\
 
 \jobtitle{Teaching Assistant} \hfill \daterange{Spring 2025} \\
 \institution{Introduction to Data Science and Econometrics} (Prof. John Eric Humphries)
+
+\newpage
 
 \jobtitle{Teaching Assistant} \hfill \daterange{Fall 2023--Spring 2024} \\
 \institution{The Senior Essay} (Prof. Rebecca Toseland)
@@ -204,3 +206,4 @@ To disentangle distortions caused by unit pricing versus low-grade fees, I tie b
 The model estimates reveal that the low-grade fee is highly valued by scaled auction bidders, but that most of the surplus it provides is competed away in equilibrium, resulting in little revenue loss. Using aerial data on beetle-caused tree mortality, I find that moral hazard led to spillovers, even after accounting for the beetle's seasonal mating cycle. Adjusting contract terms to avoid spillovers would have been very costly because bidders lose significant option value under shorter contracts; however, lump sum auctions would have achieved half of the reduction in delay at a third of the cost.
 
 \end{document}
+
