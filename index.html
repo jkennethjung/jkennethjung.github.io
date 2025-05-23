@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Jung - PhD Candidate in Economics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #3498db;
+        }
+
+        main {
+            padding: 2rem 0;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero {
+            background: white;
+            padding: 3rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .research-interests {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .interest-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3498db;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .content-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .content-section h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .paper-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .paper-abstract {
+            color: #555;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .works-list {
+            list-style: none;
+        }
+
+        .works-list li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+
+        .works-list li:last-child {
+            border-bottom: none;
+        }
+
+        .works-list li:before {
+            content: "→";
+            color: #3498db;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .cv-section {
+            text-align: center;
+        }
+
+        .cv-download {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+            margin: 1rem 0;
+        }
+
+        .cv-download:hover {
+            background: #2980b9;
+        }
+
+        .cv-embed {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .research-interests {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Ken Jung</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('about')" class="active">About</a></li>
+                <li><a href="#" onclick="showSection('research')">Research</a></li>
+                <li><a href="#" onclick="showSection('cv')">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Ken Jung</h1>
+                        <p>Fifth year PhD candidate in Economics at Yale University</p>
+                        <p>Welcome to my site!</p>
+                        <div class="research-interests">
+                            <span class="interest-tag">Industrial Organization</span>
+                            <span class="interest-tag">Environmental Economics</span>
+                        </div>
+                    </div>
+                    <img src="/docs/assets/kenjung_photo.jpg" alt="Ken Jung" class="profile-photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <div class="content-section">
+                <h2>Job Market Paper</h2>
+                <div class="paper-title">
+                    [Paper Title - Please Update]
+                </div>
+                <div class="paper-abstract">
+                    <strong>Abstract:</strong> [Please add your job market paper abstract here. This section will display your main research contribution and findings in a clear, accessible format for potential employers and collaborators.]
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Works in Progress</h2>
+                <ul class="works-list">
+                    <li>[Work in Progress Title 1 - Please Update]</li>
+                    <li>[Work in Progress Title 2 - Please Update]</li>
+                    <li>[Work in Progress Title 3 - Please Update]</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="section">
+            <div class="content-section cv-section">
+                <h2>Curriculum Vitae</h2>
+                <a href="/docs/cv/cv.pdf" class="cv-download" target="_blank">
+                    Download CV (PDF)
+                </a>
+                <embed src="/docs/cv/cv.pdf" class="cv-embed" type="application/pdf">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Remove active class from all nav links
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+
+            // Add active class to clicked nav link
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
