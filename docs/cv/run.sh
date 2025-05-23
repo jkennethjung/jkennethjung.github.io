@@ -6,6 +6,9 @@
 #SBATCH -p devel
 
 module load texlive
+
+rm cv.log cv.pdf cv.aux
+
 pdflatex -interaction=batchmode cv.tex
 pdflatex -interaction=batchmode cv.tex
 
