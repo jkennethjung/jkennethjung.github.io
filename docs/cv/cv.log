@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  22 MAY 2025 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  22 MAY 2025 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,6 +160,10 @@ Package microtype Info: Loading configuration file microtype.cfg.
 tex/microtype/microtype.cfg
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
+(/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/tex/la
+tex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -167,12 +171,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...{0em}{}[\color{darkblue}\titlerule[0.8pt]]
+l.25 ...{0em}{}[\color{darkblue}\titlerule[0.8pt]]
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
+2.
 
+(/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/tex/la
+tex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
 (/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/tex/la
 tex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
@@ -181,20 +191,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -245,42 +255,42 @@ ntext/base/mkii/supp-pdf.mkii
 \makeMPintoPDFobject=\count273
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-Package microtype Info: Applying patch `footnote' on input line 48.
-Package microtype Info: Applying patch `verbatim' on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 52.
+Package microtype Info: Applying patch `item' on input line 52.
+Package microtype Info: Applying patch `toc' on input line 52.
+Package microtype Info: Applying patch `eqnum' on input line 52.
+Package microtype Info: Applying patch `footnote' on input line 52.
+Package microtype Info: Applying patch `verbatim' on input line 52.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 48.
+LaTeX Info: Redefining \showhyphens on input line 52.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 (/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/tex/la
 tex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 60.
+(Font)              <10.95> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 64.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.71 \section*{Research Interests}
+l.75 \section*{Research Interests}
                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -294,7 +304,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.71 \section*{Research Interests}
+l.75 \section*{Research Interests}
                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -303,7 +313,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.74 \section*{Education}
+l.78 \section*{Education}
                          
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -317,21 +327,21 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.74 \section*{Education}
+l.78 \section*{Education}
                          
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
  []
 
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.84 \section*{Dissertation}
+l.88 \section*{Dissertation}
                             
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -345,17 +355,28 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.84 \section*{Dissertation}
+l.88 \section*{Dissertation}
                             
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
+4.
+
+(/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/tex/la
+tex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.96 \section*{Academic Progress}
-                                 
+l.100 \section*{Academic Progress}
+                                  
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
 this error. If you simply proceed now, the `\par' that
@@ -368,8 +389,8 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.96 \section*{Academic Progress}
-                                 
+l.100 \section*{Academic Progress}
+                                  
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
@@ -377,7 +398,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.104 \section*{Research}
+l.108 \section*{Research}
                          
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -391,16 +412,18 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.104 \section*{Research}
+l.108 \section*{Research}
                          
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 118.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.118 \section*{Teaching Experience}
+l.122 \section*{Teaching Experience}
                                     
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -414,14 +437,14 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.118 \section*{Teaching Experience}
+l.122 \section*{Teaching Experience}
                                     
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-Overfull \vbox (308.67784pt too high) has occurred while \output is active []
+Overfull \vbox (311.05472pt too high) has occurred while \output is active []
 
 [1
 
@@ -430,7 +453,7 @@ ap/pdftex/updmap/pdftex.map}]
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.140 \section*{Research Experience}
+l.144 \section*{Research Experience}
                                     
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -444,7 +467,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.140 \section*{Research Experience}
+l.144 \section*{Research Experience}
                                     
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -453,7 +476,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.148 \section*{Presentations}
+l.152 \section*{Presentations}
                               
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -467,7 +490,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.148 \section*{Presentations}
+l.152 \section*{Presentations}
                               
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -476,7 +499,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.156 \section*{Professional Service}
+l.160 \section*{Professional Service}
                                      
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -490,7 +513,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.156 \section*{Professional Service}
+l.160 \section*{Professional Service}
                                      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -499,7 +522,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.160 \section*{Additional Information}
+l.164 \section*{Additional Information}
                                        
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -513,7 +536,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.160 \section*{Additional Information}
+l.164 \section*{Additional Information}
                                        
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -523,7 +546,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.166 \section*{References}
+l.170 \section*{References}
                            
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -537,7 +560,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.166 \section*{References}
+l.170 \section*{References}
                            
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -547,7 +570,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.208 \section*{Dissertation Abstract}
+l.212 \section*{Dissertation Abstract}
                                       
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -561,7 +584,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.208 \section*{Dissertation Abstract}
+l.212 \section*{Dissertation Abstract}
                                       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -569,28 +592,25 @@ My plan is to forget the whole thing and hope for the best.
 
 [4] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
- 5465 strings out of 476024
- 88981 string characters out of 5771561
- 1859388 words of memory out of 5000000
- 25814 multiletter control sequences out of 15000+600000
- 520862 words of font info for 95 fonts, out of 8000000 for 9000
+ 5611 strings out of 476024
+ 91434 string characters out of 5771561
+ 1860388 words of memory out of 5000000
+ 25911 multiletter control sequences out of 15000+600000
+ 532230 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,62p,1191b,247s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/t
-exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</vast/palmer/apps/avx2/sof
-tware/texlive/20220321-intel-2020b/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb></vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></vast/palmer/apps/avx2/software/te
-xlive/20220321-intel-2020b/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></vast/palmer/apps/avx2/software/texlive/
-20220321-intel-2020b/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></vas
-t/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/fonts/type1
-/public/cm-super/sfrm1095.pfb>
-Output written on cv.pdf (4 pages, 101741 bytes).
+exmf-dist/fonts/enc/dvips/base/8r.enc}</vast/palmer/apps/avx2/software/texlive/
+20220321-intel-2020b/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></vast
+/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/fonts/type1/
+urw/helvetic/uhvb8a.pfb></vast/palmer/apps/avx2/software/texlive/20220321-intel
+-2020b/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></vast/palmer/apps/avx2/s
+oftware/texlive/20220321-intel-2020b/texmf-dist/fonts/type1/urw/helvetic/uhvro8
+a.pfb>
+Output written on cv.pdf (4 pages, 46619 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28673 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 40961 words of extra memory for PDF output out of 42996 (max. 10000000)
 

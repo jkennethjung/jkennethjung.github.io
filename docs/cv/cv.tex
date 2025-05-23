@@ -6,6 +6,10 @@
 \usepackage{url}
 \usepackage{xcolor}
 \usepackage{microtype}
+\usepackage{helvet}
+
+% Set default font to Helvetica (sans-serif)
+\renewcommand{\familydefault}{\sfdefault}
 
 % Remove page numbering
 \pagestyle{empty}
@@ -17,13 +21,13 @@
 
 % Customize section formatting
 \titleformat{\section}
-  {\color{darkblue}\Large\sffamily\bfseries}
+  {\color{darkblue}\Large\bfseries}
   {\thesection}{0em}{}[\color{darkblue}\titlerule[0.8pt]]
 \titlespacing*{\section}{0pt}{18pt}{8pt}
 
 % Customize subsection formatting
 \titleformat{\subsection}
-  {\color{darkblue}\large\sffamily\bfseries}
+  {\color{darkblue}\large\bfseries}
   {\thesubsection}{0em}{}
 \titlespacing*{\subsection}{0pt}{12pt}{6pt}
 
@@ -37,7 +41,7 @@
 
 % Custom header environment
 \newenvironment{cvheader}
-{\begin{center}\Large\sffamily}
+{\begin{center}\Large}
 {\end{center}}
 
 % Custom contact info environment
