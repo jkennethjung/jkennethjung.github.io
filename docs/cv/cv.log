@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  22 MAY 2025 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  22 MAY 2025 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,9 +285,9 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 [1
 
 {/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-var/fonts/m
-ap/pdftex/updmap/pdftex.map}] [2] [3]
+ap/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
-02.
+01.
 
 (/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/tex/la
 tex/psnfss/ts1phv.fd
@@ -297,7 +297,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[4] (./cv.aux) ) 
+[3] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
  5610 strings out of 476024
  91397 string characters out of 5771561
@@ -312,10 +312,10 @@ exmf-dist/fonts/enc/dvips/base/8r.enc}</vast/palmer/apps/avx2/software/texlive/
 er/apps/avx2/software/texlive/20220321-intel-2020b/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></vast/palmer/apps/avx2/software/texlive/20220321-intel-2020
 b/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (4 pages, 37580 bytes).
+Output written on cv.pdf (3 pages, 37307 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  40961 words of extra memory for PDF output out of 42996 (max. 10000000)
 
