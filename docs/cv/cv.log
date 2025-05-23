@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  23 MAY 2025 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  23 MAY 2025 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,11 +287,11 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 {/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-var/fonts/m
 ap/pdftex/updmap/pdftex.map}] [2] [3] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
- 5551 strings out of 476024
- 90600 string characters out of 5771561
+ 5561 strings out of 476024
+ 90684 string characters out of 5771561
  1856388 words of memory out of 5000000
  25877 multiletter control sequences out of 15000+600000
- 531344 words of font info for 111 fonts, out of 8000000 for 9000
+ 531746 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,62p,1191b,249s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/vast/palmer/apps/avx2/softw
@@ -301,7 +301,7 @@ rw/helvetic/uhvb8a.pfb></vast/palmer/apps/avx2/software/texlive/20220321-intel-
 2020b/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></vast/palmer/apps/avx2/so
 ftware/texlive/20220321-intel-2020b/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
-Output written on cv.pdf (3 pages, 35745 bytes).
+Output written on cv.pdf (3 pages, 35736 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
