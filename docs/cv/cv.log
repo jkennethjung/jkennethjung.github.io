@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  22 MAY 2025 21:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.6.21)  22 MAY 2025 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,78 +420,6 @@ My plan is to forget the whole thing and hope for the best.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 106.
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.110 \section*{Teaching Experience}
-                                    
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-0.8pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.110 \section*{Teaching Experience}
-                                    
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.132 \section*{Research Experience}
-                                    
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-0.8pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.132 \section*{Research Experience}
-                                    
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.140 \section*{Presentations}
-                              
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-0.8pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.140 \section*{Presentations}
-                              
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \vbox (333.50743pt too high) has occurred while \output is active []
-
 [1
 
 {/vast/palmer/apps/avx2/software/texlive/20220321-intel-2020b/texmf-var/fonts/m
@@ -499,7 +427,76 @@ ap/pdftex/updmap/pdftex.map}]
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.148 \section*{Professional Service}
+l.112 \section*{Teaching Experience}
+                                    
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+0.8pt\@@par 
+! Paragraph ended before \ttl@rule@i was complete.
+<to be read again> 
+                   \par 
+l.112 \section*{Teaching Experience}
+                                    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \ttl@rule@i has an extra }.
+<inserted text> 
+                \par 
+l.134 \section*{Research Experience}
+                                    
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+0.8pt\@@par 
+! Paragraph ended before \ttl@rule@i was complete.
+<to be read again> 
+                   \par 
+l.134 \section*{Research Experience}
+                                    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \ttl@rule@i has an extra }.
+<inserted text> 
+                \par 
+l.142 \section*{Presentations}
+                              
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+0.8pt\@@par 
+! Paragraph ended before \ttl@rule@i was complete.
+<to be read again> 
+                   \par 
+l.142 \section*{Presentations}
+                              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \ttl@rule@i has an extra }.
+<inserted text> 
+                \par 
+l.150 \section*{Professional Service}
                                      
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -513,7 +510,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.148 \section*{Professional Service}
+l.150 \section*{Professional Service}
                                      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -522,7 +519,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.152 \section*{Additional Information}
+l.154 \section*{Additional Information}
                                        
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -536,7 +533,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.152 \section*{Additional Information}
+l.154 \section*{Additional Information}
                                        
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -546,7 +543,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.158 \section*{References}
+l.160 \section*{References}
                            
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -560,7 +557,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.158 \section*{References}
+l.160 \section*{References}
                            
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -570,7 +567,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ttl@rule@i has an extra }.
 <inserted text> 
                 \par 
-l.200 \section*{Dissertation Abstract}
+l.202 \section*{Dissertation Abstract}
                                       
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -584,7 +581,7 @@ Runaway argument?
 ! Paragraph ended before \ttl@rule@i was complete.
 <to be read again> 
                    \par 
-l.200 \section*{Dissertation Abstract}
+l.202 \section*{Dissertation Abstract}
                                       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -594,7 +591,7 @@ My plan is to forget the whole thing and hope for the best.
 Here is how much of TeX's memory you used:
  5611 strings out of 476024
  91425 string characters out of 5771561
- 1859388 words of memory out of 5000000
+ 1858388 words of memory out of 5000000
  25910 multiletter control sequences out of 15000+600000
  532303 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -607,7 +604,7 @@ urw/helvetic/uhvb8a.pfb></vast/palmer/apps/avx2/software/texlive/20220321-intel
 -2020b/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></vast/palmer/apps/avx2/s
 oftware/texlive/20220321-intel-2020b/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
-Output written on cv.pdf (4 pages, 45965 bytes).
+Output written on cv.pdf (4 pages, 46022 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
