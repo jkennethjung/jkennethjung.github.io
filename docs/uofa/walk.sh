@@ -28,15 +28,6 @@ echo "- teaching_statement.pdf"
 
 echo "Combining PDFs into complete application..."
 # Check if pdftk is available, otherwise use pdfunite
-if command -v pdftk &> /dev/null; then
-    pdftk cover_letter.pdf cv.pdf teaching_statement.pdf research_statement.pdf beetles.pdf cat output complete_application.pdf
-elif command -v pdfunite &> /dev/null; then
-    pdfunite cover_letter.pdf cv.pdf teaching_statement.pdf research_statement.pdf beetles.pdf complete_application.pdf
-else
-    echo "Warning: Neither pdftk nor pdfunite found. Cannot combine PDFs."
-    echo "Install pdftk with: brew install pdftk-java"
-    echo "Or install poppler-utils with: brew install poppler"
-    exit 1
-fi
+pdftk cover_letter.pdf cv.pdf teaching_statement.pdf research_statement.pdf beetles.pdf cat output JungKen_Alberta.pdf
 
 echo "Complete application created: complete_application.pdf"
