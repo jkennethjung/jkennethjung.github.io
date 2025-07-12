@@ -7,16 +7,15 @@ ALWAYS prefer editing an existing file to creating a new one.
 NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.
 
 # private-docs-workflow
-This repository uses a strict separation between private and public documents:
+This repository maintains a strict separation between private and public documents:
 
-- `_private/` - Contains all personal documents, completely invisible to the website and internet
-  - Jekyll automatically excludes directories starting with `_`
-  - Additional exclusion added in `_config.yml` for extra safety
-  - Store all personal docs, drafts, and sensitive files here
-  - Scripts (like `run.sh`, `walk.sh`) operate within `_private/` subdirectories
+- Private documents are now stored in a separate `jkennethjung` repository (private repo)
+  - Contains all personal documents, drafts, and sensitive files
+  - Scripts (like `run.sh`, `walk.sh`) operate within private repo subdirectories
+  - Access via: `/Users/jkjun/jkennethjung/`
 
 - `docs/` - Contains only files that should be publicly accessible via the website
-  - Only copy files from `_private/` to `docs/` when they need to be web-accessible
-  - Example: `_private/cv/cv.pdf` copied to `docs/cv.pdf` for public access
+  - Copy files from the private repo to `docs/` when they need to be web-accessible
+  - Example: Copy `jkennethjung/cv/cv.pdf` to `docs/cv.pdf` for public access
 
-CRITICAL: Website HTML/content must NEVER reference files in `_private/`. Only reference files in `docs/` or other public directories.
+CRITICAL: Website HTML/content must NEVER reference files in the private repository. Only reference files in `docs/` or other public directories.
