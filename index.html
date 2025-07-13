@@ -245,7 +245,7 @@
             <ul class="nav-links">
                 <li><a href="#" onclick="showSection('about')" class="active">About</a></li>
                 <li><a href="#" onclick="showSection('research')">Research</a></li>
-                <li><a href="/docs/cv.pdf" download>CV</a></li>
+                <li><a href="#" onclick="showSection('cv')">CV</a></li>
             </ul>
         </nav>
     </header>
@@ -297,7 +297,18 @@ I demonstrate that the province's contract designs were frequently interior to t
             </div>
         </section>
 
-        <!-- CV Section - No longer needed -->
+        <!-- CV Section -->
+        <section id="cv" class="section">
+            <div class="content-section">
+                <h2>Curriculum Vitae</h2>
+                <div class="cv-section">
+                    <a href="/docs/cv.pdf" download class="cv-download">Download CV (PDF)</a>
+                    <iframe src="/docs/cv.pdf" class="cv-embed" type="application/pdf">
+                        <p>Your browser does not support PDF preview. <a href="/docs/cv.pdf" download>Download the CV here</a>.</p>
+                    </iframe>
+                </div>
+            </div>
+        </section>
         
     </main>
 
