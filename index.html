@@ -11,6 +11,10 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Helvetica', Arial, sans-serif;
             line-height: 1.6;
@@ -56,11 +60,9 @@
             color: #555;
             font-weight: 500;
             transition: color 0.3s ease;
-            cursor: pointer;
         }
 
-        .nav-links a:hover,
-        .nav-links a.active {
+        .nav-links a:hover {
             color: #2d5a41;
         }
 
@@ -69,12 +71,7 @@
         }
 
         .section {
-            display: none;
             animation: fadeIn 0.5s ease-in;
-        }
-
-        .section.active {
-            display: block;
         }
 
         @keyframes fadeIn {
@@ -112,21 +109,6 @@
             font-size: 1.1rem;
             color: #666;
             margin-bottom: 1rem;
-        }
-
-        .research-interests {
-            display: flex;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .interest-tag {
-            background: #e8f5e8;
-            color: #2d5a41;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            font-weight: 500;
         }
 
         .profile-photo {
@@ -222,16 +204,11 @@
                 flex-direction: column;
                 text-align: center;
             }
-            
-            .research-interests {
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-            
+
             .nav-links {
                 gap: 1rem;
             }
-            
+
             .hero h1 {
                 font-size: 2rem;
             }
@@ -243,26 +220,26 @@
         <nav class="container">
             <div class="logo">Ken Jung</div>
             <ul class="nav-links">
-                <li><a href="#" onclick="showSection('about')" class="active">About</a></li>
-                <li><a href="#" onclick="showSection('research')">Research</a></li>
-                <li><a href="#" onclick="showSection('cv')">CV</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#cv">CV</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
         <!-- About Section -->
-        <section id="about" class="section active">
+        <section id="about" class="section">
             <div class="hero">
                 <div class="hero-content">
                     <div class="hero-text">
                         <h1>Ken Jung</h1>
                         <p>PhD candidate in Economics at Yale University</p>
                         <p>Welcome to my site!</p>
-                        <div class="research-interests">
-                            <span class="interest-tag">Industrial Organization</span>
-                            <span class="interest-tag">Environmental Economics</span>
-                        </div>
+                        <p>I do research on <strong>natural resource and environmental economics</strong> using tools from <strong>industrial organization</strong>.</p>
+                        <p>I am on the 2025-2026 job market.</p>
+                        <p><a href="/docs/cv.pdf" class="cv-download">Download my CV</a></p>
+                        <p>Email: ken.jung@yale.edu</p>
                     </div>
                     <img src="/docs/assets/kenjung_photo.jpg" alt="Ken Jung" class="profile-photo">
                 </div>
@@ -312,26 +289,5 @@ I demonstrate that the province's contract designs were frequently interior to t
         
     </main>
 
-    <script>
-        function showSection(sectionId) {
-            // Hide all sections
-            const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                section.classList.remove('active');
-            });
-
-            // Remove active class from all nav links
-            const navLinks = document.querySelectorAll('.nav-links a');
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-
-            // Show selected section
-            document.getElementById(sectionId).classList.add('active');
-
-            // Add active class to clicked nav link
-            event.target.classList.add('active');
-        }
-    </script>
 </body>
 </html>
